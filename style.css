@@ -1,0 +1,278 @@
+
+@font-face {
+    font-family: corbelfont;
+    src: url(../font/corbel.tff);
+}
+*{
+	font-family: corbelfont;
+}
+
+input.searchbar
+{
+   width: 50%;  
+      height: 46px; 
+          border-radius: 17px; 
+              border-style: none ;     
+              text-align: center;
+}
+div.search-header
+{
+   margin-left:25% ;
+}
+div.row.search-row{
+    background: url(../../images/background.png);
+    position:relative;
+    width: 100%;
+    height: 478px;
+    background-repeat: no-repeat;
+    margin-left:0px;
+}
+           
+button.btn-primary.search-btn{
+  color:#960240;
+  
+        background-color: white;
+            border-style: none;
+                width: 20%;
+                    height: 40px;
+                        border-radius: 10px;
+}
+
+.container-fluid{
+	background-color: #930240;
+
+}
+img.company-logo{
+        width: 60%;
+	    margin-top: 53px;
+	    margin-left: 30px;
+}
+div.company-detail
+{
+      margin: 8px;
+       box-shadow: 10px 10px 12px #888888; border: 2px solid #f2f2f2;  background-color: #930240
+}
+div.company-bar
+{
+  border: 1px solid #f2f2f2;
+}
+/*  home page  */
+
+main{
+  margin-left: 13%;
+ margin-right: 13%;
+}
+div.main-col2
+{
+padding-right: 0px;
+}
+div.box1 {
+  height: 80%;
+  width: 100%;
+  margin-top: 15px;
+  background-color: #fff;
+  border-radius: 0px 15px 15px 0px;
+  margin-left: -30px;
+}
+div.box2 {
+
+  height: 53px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0px 0px 15px 15px;
+ 
+}
+div.box2-style
+{
+  padding-right: 18px;
+}
+div.box3 {
+  height: 107px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 9px;
+}
+div.box4 {
+  height: 140px;
+  width: 134%;
+  background-color: #fff;
+  border-radius: 0px 15px 15px 0px;
+  margin-top: 15px;
+  margin-left: -30px;
+}
+
+div.box5 {
+  height: 53px;
+ 
+  background-color: #fff;
+  border-radius: 10px 0px 0px 10px;
+      margin-top: 5px;
+      margin-left: 10%;
+    
+}
+div.box5-style
+{ padding: 0px;
+  border-right: 2px solid white;
+}
+div.box6 {
+  height: 54px;
+
+  background-color: #fff;
+  border-radius: 10px 0px 0px 10px;
+  margin-top: 22px;
+  margin-left: 60%;
+}
+div.box7 {
+  height: 33px;
+ 
+  background-color: #fff;
+  border-radius: 15px 15px 0px 0px;
+  margin-top:138px;
+}
+div.box7-style
+{  
+
+  padding-left: 1%;
+  border-left: 0px solid white;
+  padding-right: 1%;
+}
+
+
+/* homepage end*/
+
+
+
+
+
+
+/* social bar*/
+
+ /*search result page*/
+
+div.full
+{
+  padding: 0px;
+  margin-bottom: 15px;
+
+}
+
+div.company-box
+{
+  padding: 0px;
+     height: 410px;
+      margin-top: 6%;
+       box-shadow: 10px 10px 12px #888888; 
+       border: 2px solid #f2f2f2;
+}
+
+ .s-result-box1 {
+  height: 96%;
+  width: 109%;
+  margin-top: 8px;
+  background-color: #fff;
+  border-radius: 0px 15px 15px 0px;
+  
+}
+.s-result-box2 {
+  height: 85px;
+  width: 91%;
+  background-color: #fff;
+  border-radius: 10px 0px 0px 10px;
+      margin-top: 8px;
+}
+.s-result-box3{
+  height: 45px;
+  width: 91%;
+  background-color: #fff;
+  border-radius: 10px 0px 0px 10px;
+  margin-top: 5px;
+      }
+.s-result-box4{
+  height: 70px;
+  width: 91%;
+  background-color: #fff;
+  border-radius: 10px 0px 0px 10px;
+  margin-top: 5px;
+      }
+.s-result-box5{
+  height: 45px;
+  width: 25.5%;
+  background-color: #fff;
+  border-radius: 0px 10px 10px 0px;
+  margin-top: 5px;
+  margin-left: 4.5%;
+      }
+      .s-result-box6{
+  height: 45px;
+  width: 65%;
+  background-color: #fff;
+  border-radius: 10px 0px 0px 10px;
+  margin-top: 5px;
+  margin-left: 2px;
+      }
+      .s-result-box7{
+  height: 128px;
+  width: 57%;
+  background-color: #fff;
+  border-radius: 0px 10px 10px 0px;
+  margin-top: 5px;
+  margin-left: 4.5%;
+      }
+      .s-result-box8{
+  height: 84px;
+  width: 29%;
+  background-color: #fff;
+  border-radius: 10px 0px 0px 10px;
+  margin-top: 49px;
+  margin-left: 5%;
+      }
+
+/*other pages*/
+h2.head2
+{
+  text-align: center;
+}
+
+div.outer-margin
+{
+  background-color: #fcfcfc;
+    padding: 30px;
+}
+div.main-body
+{
+  background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px 1px #ccc;
+    padding: 20px;
+}
+div.quote
+{
+ background-color: #d8d6d6;
+  border-radius: 100px;
+   width: 100% ;
+   text-align: center; 
+   font-size: 110%;
+   height:30%;
+   padding: 85px 10px 109px 20px ; 
+}
+div.whyus-quote
+{
+  background-color: #d8d6d6;
+   border-radius: 20px;
+    width: 100% ;
+    text-align: center; 
+  font-size: 130%;
+}
+p.about-text
+{
+  font-size: 110%;
+  line-height: 28px;
+}
+div.about-margin
+{
+   padding-top: 45px;
+}
+
+
+
